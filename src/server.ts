@@ -21,7 +21,7 @@ const publicKey =  undefined;
 
 // Used to sign & authenticate communication from your integration to DePay APIs
 // Create and provide as documented here: https://depay.com/docs/payments/integrate/widget#create-privatepublic-key
-const privateKey:any = process.env.MY_PRIVATE_KEY ? crypto.createPrivateKey(process.env.MY_PRIVATE_KEY) : undefined;
+const privateKey:any = process.env.MY_PRIVATE_KEY ? crypto.createPrivateKey(process.env.MY_PRIVATE_KEY.replace(/\\n/g, '\n')) : undefined;
 
 app.get('/', (req: Request, res: Response)=>{
 
