@@ -16,7 +16,8 @@ const integrationId:string = "SET_YOUR_INTEGRATION_ID";
 
 // Used to verify communication from DePay APIs to your integration
 // Provided by app.depay.com
-const publicKey:string = "-----BEGIN PUBLIC KEY----- PLACE PUBLIC KEY HERE!!! -----END PUBLIC KEY-----";
+// ENTER YOUR PUBLIC KEY HERE, FORMAT: "-----BEGIN PUBLIC KEY-----\nMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5P24ZAKJRkINGTroqKTD\nDLOIXtL1SK9uz6rTFjHBcQdD4zZIlrCIDqxvn1kUelbfR22iEj5RnoN1LRqil3zc\nQDWD03SLxEYHdrJ3zBwN9qJ9mBeEURdmcZOvVLoXug6yRapAqS457AXhAWsacX6j\n06cpN/wLazAZe31uZOb/3xphfe7+C+6NNFzZPi6a2Dt2eSOrRtK/JD6b04RomJKk\n21ptGCxG78kMZMv5m4qqMIP8slBxTzAiTCYNUXimNzAlI793aT2X2NOEaxAKhohT\nbSGJP2xJDvwB2ZuW+WkVPs5Q+uVo0imhlHpH/h7dP1J7JFZQY50HNjhutu3xY5Xm\niQIDAQAB\n-----END PUBLIC KEY-----"
+const publicKey =  undefined;
 
 // Used to sign & authenticate communication from your integration to DePay APIs
 // Create and provide as documented here: https://depay.com/docs/payments/integrate/widget#create-privatepublic-key
